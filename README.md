@@ -90,17 +90,6 @@ python diag/t110_lh_eval.py --dataset nudt   --ckpt <ckpt> --crop 48
 
 The val80 split is used only for checkpoint and calibration selection; test-201 is evaluated exactly once per seed. Metrics follow `test_coco_eval_bbox` (mAP / AP50 / AP75 / AP@[.85:.95]).
 
-## Citation
-
-```bibtex
-@article{feng2026lattix,
-  title   = {Localization as Lattice Decision: Overcoming the Half-Pixel Cliff in Infrared Small Target Detection},
-  author  = {Feng, Xuanling and Zhu, Bin and Chen, Yi},
-  journal = {Pattern Recognition},
-  year    = {2026},
-  note    = {in submission}
-}
-```
 
 ## License and acknowledgements
 
